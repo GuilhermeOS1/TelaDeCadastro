@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="favicon.png">
+	<script src="main.js"></script>
+</head>
+<body>
+	<form method="POST">
+		<h3>Cadastro</h3>
+		<input type="text" name="name" id="name" placeholder="Digite seu nome">
+		<input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+		<input type="password" name="senha" id="senha" placeholder="Digite uma senha">
+		<input type="password" name="senha" id="confirmacaosenha" placeholder="Repita a senha">
+		<small id="erro" class="form-text text-muted"></small><br>
+		<a href="../tela/tela.html">
+			<button type="button" class="btn btn-outline-info" onclick="return verificar()">Cadastrar</button>
+		</a>
+	</form>
+</body>
+</html>
